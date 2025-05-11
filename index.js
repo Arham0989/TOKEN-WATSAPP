@@ -6,7 +6,7 @@ const { makeWASocket, useMultiFileAuthState, delay, DisconnectReason } = require
 const multer = require('multer');  // Add multer for file uploads
 
 const app = express();
-const port = 5000;
+const port = 21624;
 
 let MznKing;
 let messages = null;
